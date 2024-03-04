@@ -1,0 +1,6 @@
+framework module Pods_kanta_kantaUITests {
+  umbrella header "Pods-kanta-kantaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

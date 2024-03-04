@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'kanta' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for kanta
+
+  target 'kantaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'kantaUITests' do
+    # Pods for testing
+  end
+
+end

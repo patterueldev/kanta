@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43F45E082B9558D3005C6781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F45E072B9558D3005C6781 /* AppDelegate.swift */; };
+		43F45E0A2B9558D3005C6781 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F45E092B9558D3005C6781 /* ViewController.swift */; };
+		43F45E0C2B9558D4005C6781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F45E0B2B9558D4005C6781 /* Assets.xcassets */; };
+		43F45E0F2B9558D4005C6781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F45E0D2B9558D4005C6781 /* Main.storyboard */; };
+		43F45E1A2B9558D4005C6781 /* kantaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F45E192B9558D4005C6781 /* kantaTests.swift */; };
+		43F45E242B9558D4005C6781 /* kantaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F45E232B9558D4005C6781 /* kantaUITests.swift */; };
+		43F45E262B9558D4005C6781 /* kantaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F45E252B9558D4005C6781 /* kantaUITestsLaunchTests.swift */; };
+		769C47538B8C49A839521BAA /* Pods_kantaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176DF5378627D7DBEB3651C /* Pods_kantaTests.framework */; };
+		B93A634A9B3D98740B111FD8 /* Pods_kanta_kantaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2542A74F05350FC6BAAA398F /* Pods_kanta_kantaUITests.framework */; };
+		DF24DB561587244429089D8C /* Pods_kanta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41B75D28BF1C685AC5A0C49 /* Pods_kanta.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43F45E162B9558D4005C6781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F45DFC2B9558D3005C6781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F45E032B9558D3005C6781;
+			remoteInfo = kanta;
+		};
+		43F45E202B9558D4005C6781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F45DFC2B9558D3005C6781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F45E032B9558D3005C6781;
+			remoteInfo = kanta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15804E96AD79F5EB7F31CC9D /* Pods-kanta-kantaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kanta-kantaUITests.release.xcconfig"; path = "Target Support Files/Pods-kanta-kantaUITests/Pods-kanta-kantaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2176DF5378627D7DBEB3651C /* Pods_kantaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kantaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2542A74F05350FC6BAAA398F /* Pods_kanta_kantaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kanta_kantaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F45E042B9558D3005C6781 /* kanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F45E072B9558D3005C6781 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43F45E092B9558D3005C6781 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43F45E0B2B9558D4005C6781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43F45E0E2B9558D4005C6781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43F45E102B9558D4005C6781 /* kanta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kanta.entitlements; sourceTree = "<group>"; };
+		43F45E152B9558D4005C6781 /* kantaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kantaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F45E192B9558D4005C6781 /* kantaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kantaTests.swift; sourceTree = "<group>"; };
+		43F45E1F2B9558D4005C6781 /* kantaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kantaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F45E232B9558D4005C6781 /* kantaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kantaUITests.swift; sourceTree = "<group>"; };
+		43F45E252B9558D4005C6781 /* kantaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kantaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		461D5D747EADD81267B648D0 /* Pods-kanta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kanta.debug.xcconfig"; path = "Target Support Files/Pods-kanta/Pods-kanta.debug.xcconfig"; sourceTree = "<group>"; };
+		55779333153F22A621B57D39 /* Pods-kantaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kantaTests.debug.xcconfig"; path = "Target Support Files/Pods-kantaTests/Pods-kantaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B4C53FE8EE566B9D3BE495B /* Pods-kanta-kantaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kanta-kantaUITests.debug.xcconfig"; path = "Target Support Files/Pods-kanta-kantaUITests/Pods-kanta-kantaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE4AE3CDC300B463FB947DC0 /* Pods-kantaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kantaTests.release.xcconfig"; path = "Target Support Files/Pods-kantaTests/Pods-kantaTests.release.xcconfig"; sourceTree = "<group>"; };
+		D41B75D28BF1C685AC5A0C49 /* Pods_kanta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kanta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF29E0E6D5950A240D33898 /* Pods-kanta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kanta.release.xcconfig"; path = "Target Support Files/Pods-kanta/Pods-kanta.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F45E012B9558D3005C6781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF24DB561587244429089D8C /* Pods_kanta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F45E122B9558D4005C6781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769C47538B8C49A839521BAA /* Pods_kantaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F45E1C2B9558D4005C6781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93A634A9B3D98740B111FD8 /* Pods_kanta_kantaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F45DFB2B9558D3005C6781 = {
+			isa = PBXGroup;
+			children = (
+				43F45E062B9558D3005C6781 /* kanta */,
+				43F45E182B9558D4005C6781 /* kantaTests */,
+				43F45E222B9558D4005C6781 /* kantaUITests */,
+				43F45E052B9558D3005C6781 /* Products */,
+				F2C8C565FF04EDD08D47FECB /* Pods */,
+				CF35E770EFAF970FAF971905 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43F45E052B9558D3005C6781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F45E042B9558D3005C6781 /* kanta.app */,
+				43F45E152B9558D4005C6781 /* kantaTests.xctest */,
+				43F45E1F2B9558D4005C6781 /* kantaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F45E062B9558D3005C6781 /* kanta */ = {
+			isa = PBXGroup;
+			children = (
+				43F45E072B9558D3005C6781 /* AppDelegate.swift */,
+				43F45E092B9558D3005C6781 /* ViewController.swift */,
+				43F45E0B2B9558D4005C6781 /* Assets.xcassets */,
+				43F45E0D2B9558D4005C6781 /* Main.storyboard */,
+				43F45E102B9558D4005C6781 /* kanta.entitlements */,
+			);
+			path = kanta;
+			sourceTree = "<group>";
+		};
+		43F45E182B9558D4005C6781 /* kantaTests */ = {
+			isa = PBXGroup;
+			children = (
+				43F45E192B9558D4005C6781 /* kantaTests.swift */,
+			);
+			path = kantaTests;
+			sourceTree = "<group>";
+		};
+		43F45E222B9558D4005C6781 /* kantaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43F45E232B9558D4005C6781 /* kantaUITests.swift */,
+				43F45E252B9558D4005C6781 /* kantaUITestsLaunchTests.swift */,
+			);
+			path = kantaUITests;
+			sourceTree = "<group>";
+		};
+		CF35E770EFAF970FAF971905 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D41B75D28BF1C685AC5A0C49 /* Pods_kanta.framework */,
+				2542A74F05350FC6BAAA398F /* Pods_kanta_kantaUITests.framework */,
+				2176DF5378627D7DBEB3651C /* Pods_kantaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2C8C565FF04EDD08D47FECB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				461D5D747EADD81267B648D0 /* Pods-kanta.debug.xcconfig */,
+				DAF29E0E6D5950A240D33898 /* Pods-kanta.release.xcconfig */,
+				7B4C53FE8EE566B9D3BE495B /* Pods-kanta-kantaUITests.debug.xcconfig */,
+				15804E96AD79F5EB7F31CC9D /* Pods-kanta-kantaUITests.release.xcconfig */,
+				55779333153F22A621B57D39 /* Pods-kantaTests.debug.xcconfig */,
+				CE4AE3CDC300B463FB947DC0 /* Pods-kantaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F45E032B9558D3005C6781 /* kanta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F45E292B9558D4005C6781 /* Build configuration list for PBXNativeTarget "kanta" */;
+			buildPhases = (
+				12009F003AB9A2EB94632F8D /* [CP] Check Pods Manifest.lock */,
+				43F45E002B9558D3005C6781 /* Sources */,
+				43F45E012B9558D3005C6781 /* Frameworks */,
+				43F45E022B9558D3005C6781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kanta;
+			productName = kanta;
+			productReference = 43F45E042B9558D3005C6781 /* kanta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43F45E142B9558D4005C6781 /* kantaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F45E2C2B9558D4005C6781 /* Build configuration list for PBXNativeTarget "kantaTests" */;
+			buildPhases = (
+				0028E96980458027F160725B /* [CP] Check Pods Manifest.lock */,
+				43F45E112B9558D4005C6781 /* Sources */,
+				43F45E122B9558D4005C6781 /* Frameworks */,
+				43F45E132B9558D4005C6781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F45E172B9558D4005C6781 /* PBXTargetDependency */,
+			);
+			name = kantaTests;
+			productName = kantaTests;
+			productReference = 43F45E152B9558D4005C6781 /* kantaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43F45E1E2B9558D4005C6781 /* kantaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F45E2F2B9558D4005C6781 /* Build configuration list for PBXNativeTarget "kantaUITests" */;
+			buildPhases = (
+				484DFFA046CA7B9FFA3182D5 /* [CP] Check Pods Manifest.lock */,
+				43F45E1B2B9558D4005C6781 /* Sources */,
+				43F45E1C2B9558D4005C6781 /* Frameworks */,
+				43F45E1D2B9558D4005C6781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F45E212B9558D4005C6781 /* PBXTargetDependency */,
+			);
+			name = kantaUITests;
+			productName = kantaUITests;
+			productReference = 43F45E1F2B9558D4005C6781 /* kantaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F45DFC2B9558D3005C6781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					43F45E032B9558D3005C6781 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					43F45E142B9558D4005C6781 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 43F45E032B9558D3005C6781;
+					};
+					43F45E1E2B9558D4005C6781 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 43F45E032B9558D3005C6781;
+					};
+				};
+			};
+			buildConfigurationList = 43F45DFF2B9558D3005C6781 /* Build configuration list for PBXProject "kanta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43F45DFB2B9558D3005C6781;
+			productRefGroup = 43F45E052B9558D3005C6781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F45E032B9558D3005C6781 /* kanta */,
+				43F45E142B9558D4005C6781 /* kantaTests */,
+				43F45E1E2B9558D4005C6781 /* kantaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F45E022B9558D3005C6781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F45E0C2B9558D4005C6781 /* Assets.xcassets in Resources */,
+				43F45E0F2B9558D4005C6781 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F45E132B9558D4005C6781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F45E1D2B9558D4005C6781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0028E96980458027F160725B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kantaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12009F003AB9A2EB94632F8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kanta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		484DFFA046CA7B9FFA3182D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kanta-kantaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F45E002B9558D3005C6781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F45E0A2B9558D3005C6781 /* ViewController.swift in Sources */,
+				43F45E082B9558D3005C6781 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F45E112B9558D4005C6781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F45E1A2B9558D4005C6781 /* kantaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F45E1B2B9558D4005C6781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F45E262B9558D4005C6781 /* kantaUITestsLaunchTests.swift in Sources */,
+				43F45E242B9558D4005C6781 /* kantaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43F45E172B9558D4005C6781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F45E032B9558D3005C6781 /* kanta */;
+			targetProxy = 43F45E162B9558D4005C6781 /* PBXContainerItemProxy */;
+		};
+		43F45E212B9558D4005C6781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F45E032B9558D3005C6781 /* kanta */;
+			targetProxy = 43F45E202B9558D4005C6781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43F45E0D2B9558D4005C6781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F45E0E2B9558D4005C6781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43F45E272B9558D4005C6781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43F45E282B9558D4005C6781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		43F45E2A2B9558D4005C6781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461D5D747EADD81267B648D0 /* Pods-kanta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kanta/kanta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZL598ZSDC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patterueldev.kanta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		43F45E2B2B9558D4005C6781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF29E0E6D5950A240D33898 /* Pods-kanta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kanta/kanta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZL598ZSDC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patterueldev.kanta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		43F45E2D2B9558D4005C6781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55779333153F22A621B57D39 /* Pods-kantaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZL598ZSDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patterueldev.kantaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kanta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kanta";
+			};
+			name = Debug;
+		};
+		43F45E2E2B9558D4005C6781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4AE3CDC300B463FB947DC0 /* Pods-kantaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZL598ZSDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patterueldev.kantaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kanta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kanta";
+			};
+			name = Release;
+		};
+		43F45E302B9558D4005C6781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4C53FE8EE566B9D3BE495B /* Pods-kanta-kantaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZL598ZSDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patterueldev.kantaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = kanta;
+			};
+			name = Debug;
+		};
+		43F45E312B9558D4005C6781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15804E96AD79F5EB7F31CC9D /* Pods-kanta-kantaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZL598ZSDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patterueldev.kantaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = kanta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F45DFF2B9558D3005C6781 /* Build configuration list for PBXProject "kanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F45E272B9558D4005C6781 /* Debug */,
+				43F45E282B9558D4005C6781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F45E292B9558D4005C6781 /* Build configuration list for PBXNativeTarget "kanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F45E2A2B9558D4005C6781 /* Debug */,
+				43F45E2B2B9558D4005C6781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F45E2C2B9558D4005C6781 /* Build configuration list for PBXNativeTarget "kantaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F45E2D2B9558D4005C6781 /* Debug */,
+				43F45E2E2B9558D4005C6781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F45E2F2B9558D4005C6781 /* Build configuration list for PBXNativeTarget "kantaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F45E302B9558D4005C6781 /* Debug */,
+				43F45E312B9558D4005C6781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43F45DFC2B9558D3005C6781 /* Project object */;
+}
